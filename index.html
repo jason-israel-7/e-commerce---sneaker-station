@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzeria</title>
+  <link rel="icon" href="./assets/pie-chart-fill.svg">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!--Navbar-->
+  <nav class="navbar">
+    <a class="logo" href="#"><i class='bx bxs-pizza'></i>Pizzeria</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#pizzas">Pizzas</a></li>
+      <li><a href="#discount">Discounts</a></li>
+      <li><a href="#pizzas"><button class="orderbut">Order Now</button></a></li>
+    </ul>
+  </nav>
+
+  <!--Home-->
+  <div class="hom">
+    <section class="home" id="home">
+      <h1 class="line1">India's No. 1 Pizza Delivering Site</h1>
+      <h2 class="line2">Get offer upto 40% on your orders</h2>
+      <a href="#pizzas"><button href="#pizzas" class="order">Order Now 🡆</button></a>
+     </section>
+  </div>
+  <!--Pizza-->
+
+  <section>
+    <h1 class="piz1">Pizzas</h1>
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Sizes
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Small</a></li>
+        <li><a class="dropdown-item" href="#">Medium</a></li>
+        <li><a class="dropdown-item" href="#">Large</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        V/NV
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Veg Only</a></li>
+        <li><a class="dropdown-item" href="#">Non Veg</a></li>
+        <li><a class="dropdown-item" href="#">Veg and Non Veg</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Price
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Low to High</a></li>
+        <li><a class="dropdown-item" href="#">High to Low</a></li>
+      </ul>
+     <a class="dropdown" href="./burgers.html"><button type="button" class="btn btn-danger">Burgers</button></a>
+     <a class="dropdown" href="./burgers.html"><button type="button" class="btn btn-danger">Beverages</button></a>
+     <a class="dropdown" href="./burgers.html"><button type="button" class="btn btn-danger">Breads</button></a>
+    </div>
+  
+    <div class="pizza" id="pizzas">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/tantori.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tandori Pizza</h5>
+          <p class="card-text"> A fusion delight with a smoky tandoori-spiced topping, fresh veggies, and melty cheese
+            on a crispy crust.</p><p class="price"> Price: ₹299 <br> Rating: ⭐ 4.5/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/paneer.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Paneer Pizza</h5>
+          <p class="card-text">Loaded with soft, marinated paneer cubes, fresh veggies, and gooey cheese on a crisp
+            base. </p><p class="price"> Price: ₹349 <br> Rating: ⭐ 4.6/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/cheese.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Cheese Pizza</h5>
+          <p class="card-text">A classic favorite with a thick layer of golden, stretchy melted cheese on a perfectly
+            baked crust.</p> <p class="price"> Price: ₹299 <br> Rating: ⭐ 4.5/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/chicken pizza.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Pizza</h5>
+          <p class="card-text">Topped with succulent chicken chunks, tangy sauce, fresh veggies, and melted cheese.</p>
+           <p class="price"> Price: ₹399 <br> Rating: ⭐ 4.7/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/dcheese.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Double Cheese Pizza</h5>
+          <p class="card-text">Overflowing with double the cheesy goodness, sweet corn, and a golden crust.</p>
+            <p class="price"> Price: ₹329 <br> Rating: ⭐ 4.6/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/corn.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Corn Pizza</h5>
+          <p class="card-text">A delightful treat topped with sweet golden corn, creamy cheese, and a crispy crust. </p>
+           <p class="price"> Price: ₹319 <br> Rating: ⭐ 4.5/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/classic AMERICAN.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Classic American Pizza</h5>
+          <p class="card-text">A timeless treat with rich tomato sauce, gooey cheese, and your choice of hearty
+            toppings.</p> <p class="price"> Price: ₹379 <br> Rating: ⭐ 4.7/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/classic italian.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Classic Italian Pizza</h5>
+          <p class="card-text"> An authentic delight with fresh mozzarella, basil, and a tangy marinara base on a thin
+            crust. </p> <p class="price"> Price: ₹399 <br> Rating: ⭐ 4.8/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/garlic b pizza.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Garlic Bread Pizza</h5>
+          <p class="card-text">A flavorful twist with a garlic-infused crust, melty cheese, and savory toppings. </p> <p class="price"> Price:
+            ₹289 <br> Rating: ⭐ 4.4/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/c chicken pizza.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Chilli Chicken Pizza</h5>
+          <p class="card-text">Spicy and savory with zesty chicken, fresh veggies, and melted cheese on a crisp crust. </p>
+           <p class="price"> Price: ₹399 <br> Rating: ⭐ 4.6/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/veg.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Vegetable Pizza</h5>
+          <p class="card-text">Packed with garden-fresh veggies, tangy sauce, and a generous layer of cheese. </p><p class="price"> Price:
+            ₹299 <br> Rating: ⭐ 4.5/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/ccc pizza.jpeg" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Chilli Chicken Cheese Pizza</h5>
+          <p class="card-text">A fiery combo of spiced chicken, gooey cheese, and a hint of chili on a golden crust.</p>
+           <p class="price"> Price: ₹429 <br> Rating: ⭐ 4.7/5.</p>
+          <a href="#" id="order1" class="btn btn-danger">Order Now</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+ <div class="discount">
+  <section>
+
+    <h1 class="dealline">Exciting Deals</h1>
+    <div class="deals" id="discount">
+      <div class="card2" style="width: 40rem;">
+        <img src="./assets/deal1.jpeg" class="card-img-top" alt="..." height="300" width="400">
+        <div class="card-body">
+          <h5 class="card-title">1+1 Deal</h5>
+          <p class="card-text">Get Two Non veg pizza at the price of Rs.249</p>
+          <a href="#" id="order2" class="btn btn-warning">Get Deal</a>
+        </div>
+      </div>
+
+      <div class="card2" style="width: 40rem;">
+        <img src="./assets/deal2.jpeg" class="card-img-top" alt="..." height="300" width="400">
+        <div class="card-body">
+          <h5 class="card-title">Deals on Regular Size Pizzas</h5>
+          <p class="card-text">Buy Two Non veg/veg Regular size pizza at Rs.99 </p>
+          <a href="#" id="order2" class="btn btn-warning">Get Deal</a>
+        </div>
+      </div>
+
+      <div class="card2" style="width: 40rem;">
+        <img src="./assets/deal3.jpeg" class="card-img-top" alt="..." height="300" width="400">
+        <div class="card-body">
+          <h5 class="card-title">Buy 1 Get Seconf one with 15% discount</h5>
+          <p class="card-text">Get The second pizzas with additional 15% discount.</p>
+          <a href="#" id="order2" class="btn btn-warning">Get Deal</a>
+        </div>
+      </div>
+
+      <div class="card2" style="width: 40rem;">
+        <img src="./assets/deal4.jpeg" class="card-img-top" alt="..." height="300" width="400">
+        <div class="card-body">
+          <h5 class="card-title">New Item MOMO MIA Just Rs.299</h5>
+          <p class="card-text">Try our new Pizza for just Rs.299 only.</p>
+          <a href="#" id="order2" class="btn btn-warning">Get Deal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</body>
+
+<footer class="foot">
+  <a class="logo2" href="#"><i class='bx bxs-pizza'></i>Pizzeria</a>
+  <ul class="footlist">
+    <li style="font-size: large; font-weight: bolder;">Menu</li>
+    <li>Pizzas</li>
+    <li>Beverages</li>
+    <li>Burgers</li>
+    <li>Breads</li>
+  </ul>
+
+  <ul class="footlist">
+    <li style="font-size: large; font-weight: bolder;">Company</li>
+    <li>Blog</li>
+    <li>Career</li>
+    <li>Our Reviews</li>
+    <li>Feedback</li>
+    <li>Ads</li>
+  </ul>
+
+  <ul class="footlist">
+    <li style="font-size: large; font-weight: bolder;">Our Stores</li>
+    <li>Restaurant Near me</li>
+    <li>Pizzeria Near me</li>
+    <li>Italian Food</li>
+    <li>American Food</li>
+  </ul>
+
+  <ul class="footlist">
+    <li style="font-size: large; font-weight: bolder;">Legal</li>
+    <li>Disclaimer</li>
+    <li>FAQs</li>
+    <li>Customer Support</li>
+  </ul>
+
+  <ul class="footlist">
+    <li style="font-size: large; font-weight: bolder;">Follow us</li>
+    <li><i class="bi bi-twitter"></i></li>
+    <li><i class="bi bi-instagram"></i></li>
+    <li><i class="bi bi-facebook"></i></li>
+    <li><i class="bi bi-youtube"></i></li>
+  </ul>
+</footer>
+
+</html>
